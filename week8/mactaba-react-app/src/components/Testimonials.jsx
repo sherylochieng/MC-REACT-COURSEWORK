@@ -9,7 +9,7 @@ function Welcome( {name,course} ){
 function Testimonials() {
    return (
     <div>
-        <p>Studen Testimonials</p>
+        <p>Student Testimonials</p>
 
 
        <Welcome 

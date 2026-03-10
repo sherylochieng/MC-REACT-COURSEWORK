@@ -10,6 +10,7 @@ import Notification from './components/Thursday-Conditional-rendering/Notificati
 import Counter from './components/Friday-state&Events/State/Counter'
 import Button from './components/Friday-state&Events/Events-click/button'
 import LikeButton from './components/Friday-state&Events/LikeButton-State&Event/like'
+import NameInput from './components/week9/Monday-state-forms/NameInput'
 
 function App(){
   return(
@@ -41,6 +42,11 @@ function App(){
 
      <h1>LIKE BUTTON STATES & EVENTS</h1>   
     <LikeButton/>
+
+      <h1>STATE IN FORMS MONDAY 9/03/26</h1>  
+      <h2>week 9</h2>
+      <NameInput/>
+
 
     </div>
   )

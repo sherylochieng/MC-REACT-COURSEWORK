@@ -11,6 +11,9 @@ import Counter from './components/Friday-state&Events/State/Counter'
 import Button from './components/Friday-state&Events/Events-click/button'
 import LikeButton from './components/Friday-state&Events/LikeButton-State&Event/like'
 import NameInput from './components/week9/Monday-state-forms/NameInput'
+import Availability from './components/week9/Tuesday-rendering-lists/Filter'
+import StudentTrack from './components/week9/Tuesday-rendering-lists/Map'
+import Search from './components/week9/Tuesday-rendering-lists/Search'
 
 function App(){
   return(
@@ -44,8 +47,19 @@ function App(){
     <LikeButton/>
 
       <h1>STATE IN FORMS MONDAY 9/03/26</h1>  
-      <h2>week 9</h2>
+      <h1>week 9</h1>
       <NameInput/>
+
+      
+      <h1>MAPPING ,FILTER,SEARCH FIELD 9/03/26</h1> 
+
+      <StudentTrack/>
+       
+      <Availability/>
+      <Search/>
+
+
+
 
 
     </div>

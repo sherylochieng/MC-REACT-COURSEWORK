@@ -14,6 +14,8 @@ import NameInput from './components/week9/Monday-state-forms/NameInput'
 import Availability from './components/week9/Tuesday-rendering-lists/Filter'
 import StudentTrack from './components/week9/Tuesday-rendering-lists/Map'
 import Search from './components/week9/Tuesday-rendering-lists/Search'
+import Student from './components/week9/Wednesday-filter and operators/filterTwo'
+import ProductGrid from './components/week9/Wednesday-filter and operators/ProductLIst-search/Product'
 
 function App(){
   return(
@@ -58,8 +60,14 @@ function App(){
       <Availability/>
       <Search/>
 
+      
+      <h1>DOUBLE FILTERING WITH && AND || 11TH/MARCH/26</h1> 
+      <Student/>
 
+      
+      <h1>SEARCH AND FILTER PROJECT WEDNESDAY 11TH MARCH 2026</h1> 
 
+      <ProductGrid/>
 
 
     </div>

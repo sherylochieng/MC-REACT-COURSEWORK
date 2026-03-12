@@ -16,7 +16,9 @@ import StudentTrack from './components/week9/Tuesday-rendering-lists/Map'
 import Search from './components/week9/Tuesday-rendering-lists/Search'
 import Student from './components/week9/Wednesday-filter and operators/filterTwo'
 import ProductGrid from './components/week9/Wednesday-filter and operators/ProductLIst-search/Product'
-
+import SignIn from './components/week9/Thursday-controled -input/Signin/SignInput'
+import Login from './components/week9/Thursday-controled -input/Signin/e-preventDefault()/submit'
+import SignPrevious from './components/week9/Thursday-controled -input/SignInTwo/Sign'
 function App(){
   return(
     <div>
@@ -68,7 +70,13 @@ function App(){
       <h1>SEARCH AND FILTER PROJECT WEDNESDAY 11TH MARCH 2026</h1> 
 
       <ProductGrid/>
+        <h1>CONTROLLED INPUTS</h1>
+      <SignIn/>
 
+    <br />
+
+    <Login/>
+    <SignPrevious/>
 
     </div>
   )

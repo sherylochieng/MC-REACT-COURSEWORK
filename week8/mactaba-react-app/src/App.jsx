@@ -19,10 +19,14 @@ import ProductGrid from './components/week9/Wednesday-filter and operators/Produ
 import SignIn from './components/week9/Thursday-controled -input/Signin/SignInput'
 import Login from './components/week9/Thursday-controled -input/Signin/e-preventDefault()/submit'
 import SignPrevious from './components/week9/Thursday-controled -input/SignInTwo/Sign'
+import CounterTwo from './components/Revision/states/countno'
+import UserDashboard from './components/week9/Friday-USE-EFFECTS/USER-DASHBOARD/UserList'
+
 function App(){
   return(
     <div>
 
+      <CounterTwo/>
       <h1>PROPS TUESDAY/WEDNESDAY 2ND/3RD MARCH</h1>
       <Testimonials/> 
       {/* <StudentCard/> */}
@@ -70,13 +74,18 @@ function App(){
       <h1>SEARCH AND FILTER PROJECT WEDNESDAY 11TH MARCH 2026</h1> 
 
       <ProductGrid/>
-        <h1>CONTROLLED INPUTS</h1>
+        <h1>CONTROLLED INPUTS THURSDAY 12TH MARCH 2026</h1>
       <SignIn/>
 
     <br />
 
     <Login/>
     <SignPrevious/>
+
+      <h1>USE EFFECT,,FRIDAY 13TH MARCH 2026</h1>
+      
+      <UserDashboard/>
+
 
     </div>
   )

@@ -19,14 +19,20 @@ import ProductGrid from './components/week9/Wednesday-filter and operators/Produ
 import SignIn from './components/week9/Thursday-controled -input/Signin/SignInput'
 import Login from './components/week9/Thursday-controled -input/Signin/e-preventDefault()/submit'
 import SignPrevious from './components/week9/Thursday-controled -input/SignInTwo/Sign'
-import CounterTwo from './components/Revision/states/countno'
+// import Counterno from './components/Revision/states/countno'
 import UserDashboard from './components/week9/Friday-USE-EFFECTS/USER-DASHBOARD/UserList'
+import { Routes,Route } from 'react-router'
+import About from './components/week10/TuesdayREACT-ROUTER/About'
+import Home from './components/week10/TuesdayREACT-ROUTER/About'
+import Products from './components/week10/TuesdayREACT-ROUTER/Products'
+import Nav from './components/week10/Nav'
+
 
 function App(){
   return(
     <div>
-
-      <CounterTwo/>
+{/* 
+      <CounterTwo/> */}
       <h1>PROPS TUESDAY/WEDNESDAY 2ND/3RD MARCH</h1>
       <Testimonials/> 
       {/* <StudentCard/> */}
@@ -86,6 +92,17 @@ function App(){
       
       <UserDashboard/>
 
+      
+      <h1>WEEK 10 REACT ROUTER..LINKING PAGES TUESDAY 17TH MARCH</h1>
+
+      <Nav/>
+       <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/products" element={<Products />} />
+    
+    </Routes>
+      
 
     </div>
   )

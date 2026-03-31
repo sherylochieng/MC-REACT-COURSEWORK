@@ -25,7 +25,9 @@ import { Routes,Route } from 'react-router'
 import About from './components/week10/TuesdayREACT-ROUTER/About'
 import Home from './components/week10/TuesdayREACT-ROUTER/About'
 import Products from './components/week10/TuesdayREACT-ROUTER/Products'
-import Nav from './components/week10/Nav'
+import Nav from './components/week10/TuesdayREACT-ROUTER/Nav'
+import Userprofile from './components/week10/Wednesday-DynamicROUTING/UserParams/Userprofile'
+import HomeButton from './components/week10/Wednesday-DynamicROUTING/UseNavigate/HomeButton'
 
 
 function App(){
@@ -102,6 +104,20 @@ function App(){
       <Route path="/products" element={<Products />} />
     
     </Routes>
+
+  <br />
+  
+      <h1>WEEK 10 DYNAMIC ROUTING-USERPARAMS WEDNESDAY 18TH MARCH</h1>
+      <h2>navigate ur url on the browser and write:"http://localhost:5174/users/sheryl"</h2>
+    <p></p>
+
+      <Routes>
+      <Route path="/users/:userName" element={<Userprofile/>} />
+      </Routes>
+
+      <h1>USENAVIGATE</h1>
+      <HomeButton/>
+    
       
 
     </div>

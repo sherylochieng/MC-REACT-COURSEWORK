@@ -30,9 +30,24 @@ import Userprofile from './components/week10/Wednesday-DynamicROUTING/UserParams
 import HomeButton from './components/week10/Wednesday-DynamicROUTING/UseNavigate/HomeButton'
 
 
+import LikButtonTwo from './components/Revision/StatesTwo/LikButton'
+import NameInputTwo from './components/Revision/InputEvents/NameInput'
+import CounterTwo from './components/Revision/PROJCTA-STATES/CounterTwo'
+
 function App(){
   return(
+    
     <div>
+      <h1>REVISION </h1>
+      <LikButtonTwo/>
+
+      <br />
+      <NameInputTwo/>
+      <br />
+      <br />
+      <CounterTwo/>
+      <br />
+      <br />
 {/* 
       <CounterTwo/> */}
       <h1>PROPS TUESDAY/WEDNESDAY 2ND/3RD MARCH</h1>

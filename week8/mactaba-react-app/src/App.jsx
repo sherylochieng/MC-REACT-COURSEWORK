@@ -33,6 +33,8 @@ import HomeButton from './components/week10/Wednesday-DynamicROUTING/UseNavigate
 import LikButtonTwo from './components/Revision/StatesTwo/LikButton'
 import NameInputTwo from './components/Revision/InputEvents/NameInput'
 import CounterTwo from './components/Revision/PROJCTA-STATES/CounterTwo'
+import Password from './components/Revision/PROJCTA-STATES/PASSWORD/Password'
+import OnlineStatus from './components/Revision/ONLINE/OnlineStatus'
 
 function App(){
   return(
@@ -46,6 +48,17 @@ function App(){
       <br />
       <br />
       <CounterTwo/>
+      <br />
+      <br />
+      <h1>PASSWORD</h1>
+      <Password/>
+
+      <br />
+      <br />
+      <h1>ONLINE/OFFLINE</h1>
+      <OnlineStatus/>
+
+
       <br />
       <br />
 {/* 

@@ -35,6 +35,7 @@ import NameInputTwo from './components/Revision/InputEvents/NameInput'
 import CounterTwo from './components/Revision/PROJCTA-STATES/CounterTwo'
 import Password from './components/Revision/PROJCTA-STATES/PASSWORD/Password'
 import OnlineStatus from './components/Revision/ONLINE/OnlineStatus'
+import BioSection from './components/Revision/CONDITIONAL-RENDERING/BioSection'
 
 function App(){
   return(
@@ -57,6 +58,11 @@ function App(){
       <br />
       <h1>ONLINE/OFFLINE</h1>
       <OnlineStatus/>
+
+      <br />
+      <br />
+      <h1>BIO-SECTION</h1>
+      <BioSection/>
 
 
       <br />

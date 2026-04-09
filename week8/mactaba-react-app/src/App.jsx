@@ -42,6 +42,9 @@ import FaqId from './components/Revision/PROJECTS/FAQ-ACCORDION/FaqId'
 import Theme from './components/Revision/PROJECTS/THEMETOGGLE/Theme'
 import FormNew from './components/Revision/PROJECTS/FORM-NEW/FormNew'
 
+import StudentDirectory from './components/Revision/RENDERING-UI-LISTS/StudentDirectory'
+import StudentActive from './components/Revision/RENDERING-UI-LISTS/FILTER/StudentFilter'
+
 function App(){
   return(
     
@@ -93,6 +96,19 @@ function App(){
       <br />
       <h1>FORM NEW</h1>
       <FormNew/>
+
+      
+      <br />
+      <br />
+      <h1>RENDERING UI WEEK7 DAY4</h1>
+       <h1>MAP METHOD</h1>
+      <StudentDirectory/>
+
+      <br />
+      <br />
+      <h1>RENDERING UI WEEK7 DAY4</h1>
+       <h1>FILTER METHOD</h1>
+      <StudentActive/>
 
 
       <br />

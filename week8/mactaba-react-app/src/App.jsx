@@ -36,6 +36,8 @@ import CounterTwo from './components/Revision/PROJCTA-STATES/CounterTwo'
 import Password from './components/Revision/PROJCTA-STATES/PASSWORD/Password'
 import OnlineStatus from './components/Revision/ONLINE/OnlineStatus'
 import BioSection from './components/Revision/CONDITIONAL-RENDERING/BioSection'
+import Faq from './components/Revision/PROJECTS/FAQ-ACCORDION/Faq'
+import FaqList from './components/Revision/PROJECTS/Faqlist'
 
 function App(){
   return(
@@ -63,6 +65,16 @@ function App(){
       <br />
       <h1>BIO-SECTION</h1>
       <BioSection/>
+
+      <br />
+      <br />
+      <h1>FAQ-PROJECT</h1>
+      <Faq/>
+
+      <br />
+      <br />
+      <h1>FAQ-LIST</h1>
+      <FaqList/>
 
 
       <br />

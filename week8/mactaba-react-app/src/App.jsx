@@ -37,7 +37,9 @@ import Password from './components/Revision/PROJCTA-STATES/PASSWORD/Password'
 import OnlineStatus from './components/Revision/ONLINE/OnlineStatus'
 import BioSection from './components/Revision/CONDITIONAL-RENDERING/BioSection'
 import Faq from './components/Revision/PROJECTS/FAQ-ACCORDION/Faq'
-import FaqList from './components/Revision/PROJECTS/Faqlist'
+import FaqList from './components/Revision/PROJECTS/FAQ-ACCORDION/Faqlist'
+import FaqId from './components/Revision/PROJECTS/FAQ-ACCORDION/FaqId'
+import Theme from './components/Revision/PROJECTS/THEMETOGGLE/Theme'
 
 function App(){
   return(
@@ -75,6 +77,16 @@ function App(){
       <br />
       <h1>FAQ-LIST</h1>
       <FaqList/>
+
+      <br />
+      <br />
+      <h1>FAQ-LIST ID</h1>
+      <FaqId/>
+
+      <br />
+      <br />
+      <h1>DARK/LIGHT THEME TOGGLE</h1>
+      <Theme/>
 
 
       <br />

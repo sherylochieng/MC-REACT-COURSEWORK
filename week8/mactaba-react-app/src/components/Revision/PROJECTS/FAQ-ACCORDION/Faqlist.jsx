@@ -11,13 +11,14 @@ const [openIndex,setOpenIndex]=useState(null)
 
 return(
 <div>
-{faqs.map((faq, index) => (
+  
+  {faqs.map((faq, index) => (
   <div key={index}>
     <button onClick={() => setOpenIndex(index)}>{faq.question}</button>
 
     {openIndex === index && <p>{faq.answer}</p>}
   </div>
-))}
+  ))}
 
 </div>
 )

@@ -40,6 +40,7 @@ import Faq from './components/Revision/PROJECTS/FAQ-ACCORDION/Faq'
 import FaqList from './components/Revision/PROJECTS/FAQ-ACCORDION/Faqlist'
 import FaqId from './components/Revision/PROJECTS/FAQ-ACCORDION/FaqId'
 import Theme from './components/Revision/PROJECTS/THEMETOGGLE/Theme'
+import FormNew from './components/Revision/PROJECTS/FORM-NEW/FormNew'
 
 function App(){
   return(
@@ -87,6 +88,11 @@ function App(){
       <br />
       <h1>DARK/LIGHT THEME TOGGLE</h1>
       <Theme/>
+
+      <br />
+      <br />
+      <h1>FORM NEW</h1>
+      <FormNew/>
 
 
       <br />

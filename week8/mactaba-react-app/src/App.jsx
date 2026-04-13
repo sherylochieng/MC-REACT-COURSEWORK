@@ -44,8 +44,16 @@ import FormNew from './components/Revision/PROJECTS/FORM-NEW/FormNew'
 
 import StudentDirectory from './components/Revision/RENDERING-UI-LISTS/StudentDirectory'
 import StudentActive from './components/Revision/RENDERING-UI-LISTS/FILTER/StudentFilter'
-
+import StudentEmpty from './components/Revision/RENDERING-UI-LISTS/EMPTY -LOADING STATE/Empty'
+import Loading from './components/Revision/RENDERING-UI-LISTS/LOADING -STATE/Loading'
+import { movies } from './components/Revision/RENDERING-UI-LISTS/LOADING -STATE/data'
 function App(){
+//     const movies=[
+//  {id:1, name:"Sheryl", admNumber:2345, year:4, duration:"6 Months", attendance:"online",active: true},
+//   {id:2, name:'Joy', admNumber:4567, year:6, duration:'7 Months', attendance:'physical',active: false},
+//   {id:3, name:'Shila', admNumber:7890, year:7, duration:'8 Months', attendance:'online', active: true},
+// ]
+
   return(
     
     <div>
@@ -109,6 +117,18 @@ function App(){
       <h1>RENDERING UI WEEK7 DAY4</h1>
        <h1>FILTER METHOD</h1>
       <StudentActive/>
+
+      <br />
+      <br />
+      <h1>EMPTY STATE</h1>
+      <StudentEmpty/>
+
+      <br />
+      <br />
+      <h1>LOADING STATE</h1>
+    
+      <Loading isLoading={true} movies={movies}/>
+
 
 
       <br />

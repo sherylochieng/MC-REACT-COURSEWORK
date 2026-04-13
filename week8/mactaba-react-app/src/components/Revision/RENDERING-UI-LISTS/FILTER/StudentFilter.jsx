@@ -5,6 +5,7 @@ const students=[
     {id:3, name:'Shila', admNumber:7890, year:7, duration:'8 Months', attendance:'online', active: true},
 ]
 
+
 export default function StudentActive(){
     const activeStudents=students
     .filter((student)=>student.active)
@@ -23,7 +24,7 @@ export default function StudentActive(){
 
 }
 
-// PERFECT! 🎯 That is clean and professional code!
+// PERFECT!That is clean and professional code!
 // You just used the chaining pattern from your notes:
 
 // .filter() narrows the array

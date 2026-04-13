@@ -42,11 +42,16 @@ import FaqId from './components/Revision/PROJECTS/FAQ-ACCORDION/FaqId'
 import Theme from './components/Revision/PROJECTS/THEMETOGGLE/Theme'
 import FormNew from './components/Revision/PROJECTS/FORM-NEW/FormNew'
 
-import StudentDirectory from './components/Revision/RENDERING-UI-LISTS/StudentDirectory'
+import StudentDirectory from './components/Revision/RENDERING-UI-LISTS/MAP/StudentDirectory'
 import StudentActive from './components/Revision/RENDERING-UI-LISTS/FILTER/StudentFilter'
 import StudentEmpty from './components/Revision/RENDERING-UI-LISTS/EMPTY -LOADING STATE/Empty'
 import Loading from './components/Revision/RENDERING-UI-LISTS/LOADING -STATE/Loading'
 import { movies } from './components/Revision/RENDERING-UI-LISTS/LOADING -STATE/data'
+import SearchTwo from './components/Revision/RENDERING-UI-LISTS/SEARCH/SearchTwo'
+import SearchTwoTernary from './components/Revision/RENDERING-UI-LISTS/SEARCH/SearchTwoTenary'
+
+
+
 function App(){
 //     const movies=[
 //  {id:1, name:"Sheryl", admNumber:2345, year:4, duration:"6 Months", attendance:"online",active: true},
@@ -128,6 +133,17 @@ function App(){
       <h1>LOADING STATE</h1>
     
       <Loading isLoading={true} movies={movies}/>
+
+      <br />
+      <br />
+      <h1>SEARCH STATE</h1>
+      <SearchTwo/>
+
+      <br />
+      <br />
+      <h1>SEARCH TWO TENARY</h1>
+      <SearchTwoTernary/>
+
 
 
 

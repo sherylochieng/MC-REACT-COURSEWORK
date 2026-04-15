@@ -49,6 +49,7 @@ import Loading from './components/Revision/RENDERING-UI-LISTS/LOADING -STATE/Loa
 import { movies } from './components/Revision/RENDERING-UI-LISTS/LOADING -STATE/data'
 import SearchTwo from './components/Revision/RENDERING-UI-LISTS/SEARCH/SearchTwo'
 import SearchTwoTernary from './components/Revision/RENDERING-UI-LISTS/SEARCH/SearchTwoTenary'
+import StudentList from './components/Revision/EXTRACTING-LIST-ITEMS-INTO-COMPONENTS/StudentList'
 
 
 
@@ -62,7 +63,7 @@ function App(){
   return(
     
     <div>
-      <h1>REVISION </h1>
+      {/* <h1>REVISION </h1>
       <LikButtonTwo/>
 
       <br />
@@ -103,8 +104,8 @@ function App(){
       <br />
       <br />
       <h1>DARK/LIGHT THEME TOGGLE</h1>
-      <Theme/>
-
+      <Theme/> */}
+{/* 
       <br />
       <br />
       <h1>FORM NEW</h1>
@@ -143,6 +144,12 @@ function App(){
       <br />
       <h1>SEARCH TWO TENARY</h1>
       <SearchTwoTernary/>
+
+      <br />
+      <br />
+      <h1>SEPERATING COMPONENTS</h1>
+      <StudentList/>
+
 
 
 
@@ -234,7 +241,7 @@ function App(){
       <h1>USENAVIGATE</h1>
       <HomeButton/>
     
-      
+       
 
     </div>
   )

@@ -50,7 +50,7 @@ import { movies } from './components/Revision/RENDERING-UI-LISTS/LOADING -STATE/
 import SearchTwo from './components/Revision/RENDERING-UI-LISTS/SEARCH/SearchTwo'
 import SearchTwoTernary from './components/Revision/RENDERING-UI-LISTS/SEARCH/SearchTwoTenary'
 import StudentList from './components/Revision/EXTRACTING-LIST-ITEMS-INTO-COMPONENTS/StudentList'
-
+import FormPreventDefault from './components/Revision/week08/Form-epreventdefault/form/FormPreventDefault'
 
 
 function App(){
@@ -63,7 +63,7 @@ function App(){
   return(
     
     <div>
-      {/* <h1>REVISION </h1>
+      <h1>REVISION </h1>
       <LikButtonTwo/>
 
       <br />
@@ -104,8 +104,8 @@ function App(){
       <br />
       <br />
       <h1>DARK/LIGHT THEME TOGGLE</h1>
-      <Theme/> */}
-{/* 
+      <Theme/>
+
       <br />
       <br />
       <h1>FORM NEW</h1>
@@ -150,6 +150,11 @@ function App(){
       <h1>SEPERATING COMPONENTS</h1>
       <StudentList/>
 
+      <br />
+      <br />
+      <h1>WEEKK 08 REVISION day1</h1>
+      <h1>FormPreventDefault(e.prevent default and onsubmit and form)</h1>
+      <FormPreventDefault/>
 
 
 
@@ -241,7 +246,7 @@ function App(){
       <h1>USENAVIGATE</h1>
       <HomeButton/>
     
-       
+      
 
     </div>
   )

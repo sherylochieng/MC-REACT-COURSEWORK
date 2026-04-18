@@ -51,7 +51,7 @@ import SearchTwo from './components/Revision/RENDERING-UI-LISTS/SEARCH/SearchTwo
 import SearchTwoTernary from './components/Revision/RENDERING-UI-LISTS/SEARCH/SearchTwoTenary'
 import StudentList from './components/Revision/EXTRACTING-LIST-ITEMS-INTO-COMPONENTS/StudentList'
 import FormPreventDefault from './components/Revision/week08/Form-epreventdefault/form/FormPreventDefault'
-
+import SignupFormHandlingFields from './components/Revision/week08/HANDLING-MULTIPLE-FIELDS/Signu-up-form/SignupRevision'
 
 function App(){
 //     const movies=[
@@ -152,12 +152,29 @@ function App(){
 
       <br />
       <br />
-      <h1>WEEKK 08 REVISION day1</h1>
+      <h1>WEEKK 08 REVISION day1 A</h1>
       <h1>FormPreventDefault(e.prevent default and onsubmit and form)</h1>
       <FormPreventDefault/>
 
+       <br />
+      <br />
+      <h1>WEEK 08 REVISION day1 B</h1>
+      <h1>Handling multiple Fields</h1>
+      <SignupFormHandlingFields/>
 
 
+
+
+
+
+
+
+
+
+      <br />
+      
+      <br />
+      <br />
 
       <br />
       <br />

@@ -52,6 +52,8 @@ import SearchTwoTernary from './components/Revision/RENDERING-UI-LISTS/SEARCH/Se
 import StudentList from './components/Revision/EXTRACTING-LIST-ITEMS-INTO-COMPONENTS/StudentList'
 import FormPreventDefault from './components/Revision/week08/Form-epreventdefault/form/FormPreventDefault'
 import SignupFormHandlingFields from './components/Revision/week08/HANDLING-MULTIPLE-FIELDS/Signu-up-form/SignupRevision'
+import SignupFormValidate from './components/Revision/week08/VALIDATION-FORMVALIDATE/ValidateOne'
+
 
 function App(){
 //     const movies=[
@@ -162,6 +164,11 @@ function App(){
       <h1>Handling multiple Fields</h1>
       <SignupFormHandlingFields/>
 
+       <br />
+      <br />
+      <h1>WEEK 08 REVISION day1 C</h1>
+      <h1>VALIDATION</h1>
+      <SignupFormValidate/>
 
 
 

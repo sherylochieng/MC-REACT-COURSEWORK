@@ -53,7 +53,7 @@ import StudentList from './components/Revision/EXTRACTING-LIST-ITEMS-INTO-COMPON
 import FormPreventDefault from './components/Revision/week08/Form-epreventdefault/form/FormPreventDefault'
 import SignupFormHandlingFields from './components/Revision/week08/HANDLING-MULTIPLE-FIELDS/Signu-up-form/SignupRevision'
 import SignupFormValidate from './components/Revision/week08/VALIDATION-FORMVALIDATE/ValidateOne'
-
+import ContactForm from './components/Revision/week08/VALIDATION-FORMVALIDATE/ContactForm'
 
 function App(){
 //     const movies=[
@@ -169,6 +169,8 @@ function App(){
       <h1>WEEK 08 REVISION day1 C</h1>
       <h1>VALIDATION</h1>
       <SignupFormValidate/>
+      <h1>PROJECT A</h1>
+      <ContactForm/>
 
 
 

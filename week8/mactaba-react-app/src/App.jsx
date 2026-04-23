@@ -54,6 +54,7 @@ import FormPreventDefault from './components/Revision/week08/Form-epreventdefaul
 import SignupFormHandlingFields from './components/Revision/week08/HANDLING-MULTIPLE-FIELDS/Signu-up-form/SignupRevision'
 import SignupFormValidate from './components/Revision/week08/VALIDATION-FORMVALIDATE/ValidateOne'
 import ContactForm from './components/Revision/week08/VALIDATION-FORMVALIDATE/ContactForm'
+import StudentApplicationForm from './components/Revision/week08/PROJECTS/PROJECTA/PROJECTB- Student Application Form/StudentAppForm'
 
 function App(){
 //     const movies=[
@@ -169,8 +170,12 @@ function App(){
       <h1>WEEK 08 REVISION day1 C</h1>
       <h1>VALIDATION</h1>
       <SignupFormValidate/>
-      <h1>PROJECT A</h1>
+      <h1>PROJECT A - CONTACT FORM</h1>
       <ContactForm/>
+      <br />
+      <br />
+      <h1>PROJECT B - STUDENT APPLICATION FORM</h1>
+      <StudentApplicationForm/>
 
 
 

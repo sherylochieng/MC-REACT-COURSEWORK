@@ -74,8 +74,9 @@ export default function ContactForm(){
     </form>
     
     </>
-   
-   )}
+   )
+    }
+  
    
     function validate(form){
     const errors = {}
@@ -92,4 +93,4 @@ export default function ContactForm(){
     }
 
     return errors
-}
+    }

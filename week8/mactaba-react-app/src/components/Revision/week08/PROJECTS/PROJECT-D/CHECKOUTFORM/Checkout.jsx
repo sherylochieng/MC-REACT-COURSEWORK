@@ -6,7 +6,7 @@ export default function CheckOutForm(){
         email:'',
         phoneNumber:'',
         deliveryAdress:'',
-        PaymentMethod:'',
+        Payment:'',
         oderNotes:''
 
     })
@@ -29,7 +29,7 @@ export default function CheckOutForm(){
         email:'',
         phoneNumber:'',
         deliveryAdress:'',
-        PaymentMethod:'',
+        Payment:'',
         oderNotes:'' 
     }); 
     // reset fields
@@ -82,31 +82,54 @@ export default function CheckOutForm(){
       <label>
         Delivery Address
         <input
-        name="deliveryaddress" 
+        name="deliveryAddress" 
         value={form.deliveryAdress} 
         onChange={handleChange} />
         {errors.deliveryAdress && <p style={{ color: "red" }}>{errors.deliveryAdress}</p>}
       </label>
 
       <label>
-        Payment Method
-        <radio 
-        name="payment method" 
-        value={form.PaymentMethod} 
-        onChange={handleChange}>
-        <option value="">-- Select level --</option>
-        <option value="beginner">mpesa</option>
-        <option value="intermediate">card</option>
-        <option value="advanced">cash on delivery</option>
-        </radio>
-        {errors.PaymentMethod && <p style={{ color: "red" }}>{errors.PaymentMethod}</p>}
-      </label>
+  Payment Method
+  <div>
+    <label>
+      <input
+        type="radio"
+        name="payment"
+        value="mpesa"
+        checked={form.payment === "mpesa"}
+        onChange={handleChange}
+      />
+      M-Pesa
+    </label>
+    <label>
+      <input
+        type="radio"
+        name="payment"
+        value="card"
+        checked={form.payment === "card"}
+        onChange={handleChange}
+      />
+      Card
+    </label>
+    <label>
+      <input
+        type="radio"
+        name="payment"
+        value="cash"
+        checked={form.payment === "cash"}
+        onChange={handleChange}
+      />
+      Cash on Delivery
+    </label>
+  </div>
+  {errors.payment && <p style={{ color: "red" }}>{errors.payment}</p>}
+</label>
 
        <label>
         Oder notes
         <input
           type="text"
-          name="oder notes"
+          name="oderNotes"
           value={form.oderNotes}
           onChange={handleChange}
         />
@@ -140,8 +163,8 @@ export default function CheckOutForm(){
         errors.deliveryAdress='delivery adress required'
     }
 
-    if(!form.PaymentMethod){
-        errors.PaymentMethod= 'select one'
+    if(!form.Payment){
+        errors.Payment= 'select one'
     }
 
      if(!form.oderNotes.trim()){

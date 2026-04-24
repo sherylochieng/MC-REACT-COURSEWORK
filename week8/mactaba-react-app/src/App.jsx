@@ -57,6 +57,7 @@ import ContactForm from './components/Revision/week08/VALIDATION-FORMVALIDATE/Co
 import StudentApplicationForm from './components/Revision/week08/PROJECTS/PROJECTA/PROJECTB- Student Application Form/StudentAppForm'
 import LogInForm from './components/Revision/week08/PROJECTS/PROJECT-C/Login'
 import SignUpForm from './components/Revision/week08/PROJECTS/project-c/SignUp'
+import LogInSignUpForm from './components/Revision/week08/PROJECTS/project-c/LoginForm'
 
 
 function App(){
@@ -187,6 +188,9 @@ function App(){
       <br />
       <h1>PROJECT C signup- LOGIN/SIGNUP FORM</h1>
       <SignUpForm/>
+
+      <h1>PROJECT C Combining both- LOGIN/SIGNUP FORM</h1>
+      <LogInSignUpForm/>
 
 
 

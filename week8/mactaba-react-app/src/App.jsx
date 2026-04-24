@@ -55,6 +55,7 @@ import SignupFormHandlingFields from './components/Revision/week08/HANDLING-MULT
 import SignupFormValidate from './components/Revision/week08/VALIDATION-FORMVALIDATE/ValidateOne'
 import ContactForm from './components/Revision/week08/VALIDATION-FORMVALIDATE/ContactForm'
 import StudentApplicationForm from './components/Revision/week08/PROJECTS/PROJECTA/PROJECTB- Student Application Form/StudentAppForm'
+import LogInForm from './components/Revision/week08/PROJECTS/project-c/Login'
 
 function App(){
 //     const movies=[
@@ -176,6 +177,10 @@ function App(){
       <br />
       <h1>PROJECT B - STUDENT APPLICATION FORM</h1>
       <StudentApplicationForm/>
+      <br />
+      <br />
+      <h1>PROJECT C - LOGIN/SIGNUP FORM</h1>
+      <LogInForm/>
 
 
 

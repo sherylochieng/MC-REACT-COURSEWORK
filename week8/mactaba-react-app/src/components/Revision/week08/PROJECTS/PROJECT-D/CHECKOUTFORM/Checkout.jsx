@@ -6,7 +6,7 @@ export default function CheckOutForm(){
         email:'',
         phoneNumber:'',
         deliveryAdress:'',
-        Payment:'',
+        payment:'',
         oderNotes:''
 
     })
@@ -29,7 +29,7 @@ export default function CheckOutForm(){
         email:'',
         phoneNumber:'',
         deliveryAdress:'',
-        Payment:'',
+        payment:'',
         oderNotes:'' 
     }); 
     // reset fields
@@ -46,7 +46,7 @@ export default function CheckOutForm(){
 
 
     if(success){
-        return <p>submitted ,successfully..thanks for signing up welcome to christs bride</p>
+        return <p>submitted ,successfully</p>
     }
     return(
         <>
@@ -60,7 +60,7 @@ export default function CheckOutForm(){
         {/* Show the error only if errors.name exists */}
         {errors.name && <p style={{ color: "red" }}>{errors.name}</p>}
       </label>
-
+            <br />
       <label>
         Email
         <input
@@ -69,7 +69,7 @@ export default function CheckOutForm(){
         onChange={handleChange} />
         {errors.email && <p style={{ color: "red" }}>{errors.email}</p>}
       </label>
-
+        <br />
         <label>
         Phone Number
         <input
@@ -78,16 +78,16 @@ export default function CheckOutForm(){
         onChange={handleChange} />
         {errors.phoneNumber && <p style={{ color: "red" }}>{errors.phoneNumber}</p>}
       </label>
-
+        <br />
       <label>
         Delivery Address
         <input
-        name="deliveryAddress" 
+        name="deliveryAdress" 
         value={form.deliveryAdress} 
         onChange={handleChange} />
         {errors.deliveryAdress && <p style={{ color: "red" }}>{errors.deliveryAdress}</p>}
       </label>
-
+        <br />
       <label>
   Payment Method
   <div>
@@ -101,6 +101,7 @@ export default function CheckOutForm(){
       />
       M-Pesa
     </label>
+    <br />
     <label>
       <input
         type="radio"
@@ -111,6 +112,7 @@ export default function CheckOutForm(){
       />
       Card
     </label>
+    <br />
     <label>
       <input
         type="radio"
@@ -124,6 +126,7 @@ export default function CheckOutForm(){
   </div>
   {errors.payment && <p style={{ color: "red" }}>{errors.payment}</p>}
 </label>
+<br />
 
        <label>
         Oder notes
@@ -135,6 +138,7 @@ export default function CheckOutForm(){
         />
         {errors.oderNotes && <p style={{ color: "red" }}>{errors.oderNotes}</p>}
       </label>
+      <br />
 
         <button onClick={handleSubmit} type="submit">submit</button>
         </form>
@@ -163,13 +167,11 @@ export default function CheckOutForm(){
         errors.deliveryAdress='delivery adress required'
     }
 
-    if(!form.Payment){
-        errors.Payment= 'select one'
+    if(!form.payment){
+        errors.payment= 'select one'
     }
 
-     if(!form.oderNotes.trim()){
-        errors.oderNotes= 'invalid message'
-    }
+     
 
     return errors
     }

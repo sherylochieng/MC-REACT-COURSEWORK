@@ -58,6 +58,7 @@ import StudentApplicationForm from './components/Revision/week08/PROJECTS/PROJEC
 import LogInForm from './components/Revision/week08/PROJECTS/PROJECT-C/Login'
 import SignUpForm from './components/Revision/week08/PROJECTS/project-c/SignUp'
 import LogInSignUpForm from './components/Revision/week08/PROJECTS/project-c/LoginForm'
+import CheckOutForm from './components/Revision/week08/PROJECTS/PROJECT-D/CHECKOUTFORM/Checkout'
 
 
 function App(){
@@ -191,6 +192,11 @@ function App(){
 
       <h1>PROJECT C Combining both- LOGIN/SIGNUP FORM</h1>
       <LogInSignUpForm/>
+
+      <br />
+      <br />
+      <h1>PROJECT D CHECKOUTUI FORM</h1>
+      <CheckOutForm/>
 
 
 

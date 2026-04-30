@@ -106,7 +106,7 @@ function UserDashboard() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    setIsLoading(true);
+    // setIsLoading(true);
 
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((response) => {

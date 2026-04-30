@@ -20,6 +20,7 @@ import SignIn from './components/week9/Thursday-controled -input/Signin/SignInpu
 import Login from './components/week9/Thursday-controled -input/Signin/e-preventDefault()/submit'
 import SignPrevious from './components/week9/Thursday-controled -input/SignInTwo/Sign'
 // import Counterno from './components/Revision/states/countno'
+// import UserDashboard from './components/week9/Friday-USE-EFFECTS/USER-DASHBOARD/UserList'
 import UserDashboard from './components/week9/Friday-USE-EFFECTS/USER-DASHBOARD/UserList'
 import { Routes,Route } from 'react-router'
 import About from './components/week10/TuesdayREACT-ROUTER/About'
@@ -59,7 +60,9 @@ import LogInForm from './components/Revision/week08/PROJECTS/PROJECT-C/Login'
 import SignUpForm from './components/Revision/week08/PROJECTS/project-c/SignUp'
 import LogInSignUpForm from './components/Revision/week08/PROJECTS/project-c/LoginForm'
 import CheckOutForm from './components/Revision/week08/PROJECTS/PROJECT-D/CHECKOUTFORM/Checkout'
-
+import PageTitle from './components/week9/Friday-USE-EFFECTS/REVISION/USE-EFFECT-AVAILABILITY TEST/PageTitle'
+import PosttList from './components/Revision/week9-b/day1/USE-EFFECT/CLASS-PROJECTS/PosttList'
+import InfiniteLoop from './components/Revision/week9-b/day1/USE-EFFECT/MISTAKE TESTS/Infinite'
 
 function App(){
 //     const movies=[
@@ -197,6 +200,25 @@ function App(){
       <br />
       <h1>PROJECT D CHECKOUTUI FORM</h1>
       <CheckOutForm/>
+
+      <br />
+      <br />
+      <h1>WEEK 08 REVISION day2 </h1>
+      <h1>USE-EFFECTS</h1>
+      <PageTitle/>
+       
+      <br />
+      <br />
+      <h1>WEEK 08 REVISION day2 </h1>
+      <h1>USE-EFFECTS - API </h1>
+      <PosttList/>
+
+        <br />
+      <br />
+      <h1>WEEK 08 REVISION day2 </h1>
+      <h1>USE-EFFECTS - MISTAKE TESTS </h1>
+      <h2>Infinite Loops </h2>
+      <InfiniteLoop/>
 
 
 
